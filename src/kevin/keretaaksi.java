@@ -11,6 +11,8 @@ package kevin;
  */
 public class keretaaksi {
     public static void main(String[] args) {
-        
+        KeretaApi Listrik = new KeretaApi();
+        KeretaApi Lokomotif = new KeretaApi();
+        KeretaApi Levitasi = new KeretaApi();
     }
 }
