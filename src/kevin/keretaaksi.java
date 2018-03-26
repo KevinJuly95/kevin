@@ -27,10 +27,14 @@ public class keretaaksi {
         Lokomotif.kecepatan = 120;
         Lokomotif.JmlAwak = 28;
         
-        Levitasi.Jenis = "KRL Hitachi";
-        Levitasi.JmlKursi = 80;
-        Levitasi.JmlGerbang = 8;
-        Levitasi.kecepatan = 120;
-        Levitasi.JmlAwak = 28;
+        Levitasi.Jenis = "Maglev";
+        Levitasi.JmlKursi = 90;
+        Levitasi.JmlGerbang = 10;
+        Levitasi.kecepatan = 6000;
+        Levitasi.JmlAwak = 30;
+        
+        Listrik.datakereta();
+        Lokomotif.datakereta();
+        Levitasi.datakereta();
     }
 }
